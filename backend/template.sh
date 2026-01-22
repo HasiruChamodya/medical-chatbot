@@ -1,0 +1,16 @@
+mkdir -p src 
+mkdir -p research
+
+touch src/__init__.py
+touch src/helper.py
+touch src/main.py
+touch src/prompt.py
+touch .env
+touch setup.py
+touch app.py
+touch research/trials.ipynb
+touch README.md
+touch requirements.txt
+
+echo "files and folders created successfully."
+
