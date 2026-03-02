@@ -10,7 +10,6 @@ A medical information chatbot that helps users understand symptoms, conditions, 
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [How It Works](#how-it-works)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -24,13 +23,8 @@ A medical information chatbot that helps users understand symptoms, conditions, 
   - [Example Prompts](#example-prompts)
   - [Safety Guidance Prompts](#safety-guidance-prompts)
 - [Configuration](#configuration)
-- [Deployment](#deployment)
-- [Testing](#testing)
-- [Security & Privacy](#security--privacy)
-- [Limitations](#limitations)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+
+
 
 ---
 
@@ -305,41 +299,6 @@ Suggested test coverage:
 - Can hallucinate or provide outdated info.
 - Cannot verify user identity, age, allergies, medication lists, or history reliably.
 - If using RAG, answers are limited by the quality and coverage of the knowledge base.
-
----
-
-## Roadmap
-
-Ideas for improvement:
-
-- Add structured responses (Symptoms / Possible causes / Red flags / Next steps)
-- Add citations from trusted sources (CDC, WHO, NHS, FDA labels)
-- Add multilingual support
-- Add “checklist” input flow (age, duration, severity, comorbidities)
-- Add evaluation harness (medical QA datasets, safety tests)
-- Add observability (latency, cost, refusal rates)
-
----
-
-## Contributing
-
-Contributions are welcome.
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/my-change`
-3. Commit changes: `git commit -m "Add: ..."`
-4. Push branch: `git push origin feature/my-change`
-5. Open a Pull Request
-
-Please include tests when applicable and avoid adding any real patient data to the repository.
-
----
-
-## License
-
-Add your license here (e.g., MIT). If your repository already has a `LICENSE` file, reference it:
-
-- See [`LICENSE`](./LICENSE)
 
 ---
 
