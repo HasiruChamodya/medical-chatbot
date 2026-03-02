@@ -43,15 +43,6 @@ A medical information chatbot that helps users understand symptoms, conditions, 
 
 ---
 
-## Demo
-
-If you have a hosted demo, add it here:
-
-- Live app: `https://<your-deployment-url>`
-- Video walkthrough: `https://<your-video-url>`
-
----
-
 ## How It Works
 
 At a high level, the chatbot:
